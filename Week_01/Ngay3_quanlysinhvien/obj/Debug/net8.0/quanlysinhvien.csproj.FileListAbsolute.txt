@@ -1,0 +1,15 @@
+C:\CSharplearning\Week_01\Ngay3_quanlysinhvien\bin\Debug\net8.0\quanlysinhvien.exe
+C:\CSharplearning\Week_01\Ngay3_quanlysinhvien\bin\Debug\net8.0\quanlysinhvien.deps.json
+C:\CSharplearning\Week_01\Ngay3_quanlysinhvien\bin\Debug\net8.0\quanlysinhvien.runtimeconfig.json
+C:\CSharplearning\Week_01\Ngay3_quanlysinhvien\bin\Debug\net8.0\quanlysinhvien.dll
+C:\CSharplearning\Week_01\Ngay3_quanlysinhvien\bin\Debug\net8.0\quanlysinhvien.pdb
+C:\CSharplearning\Week_01\Ngay3_quanlysinhvien\obj\Debug\net8.0\quanlysinhvien.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharplearning\Week_01\Ngay3_quanlysinhvien\obj\Debug\net8.0\quanlysinhvien.AssemblyInfoInputs.cache
+C:\CSharplearning\Week_01\Ngay3_quanlysinhvien\obj\Debug\net8.0\quanlysinhvien.AssemblyInfo.cs
+C:\CSharplearning\Week_01\Ngay3_quanlysinhvien\obj\Debug\net8.0\quanlysinhvien.csproj.CoreCompileInputs.cache
+C:\CSharplearning\Week_01\Ngay3_quanlysinhvien\obj\Debug\net8.0\quanlysinhvien.sourcelink.json
+C:\CSharplearning\Week_01\Ngay3_quanlysinhvien\obj\Debug\net8.0\quanlysinhvien.dll
+C:\CSharplearning\Week_01\Ngay3_quanlysinhvien\obj\Debug\net8.0\refint\quanlysinhvien.dll
+C:\CSharplearning\Week_01\Ngay3_quanlysinhvien\obj\Debug\net8.0\quanlysinhvien.pdb
+C:\CSharplearning\Week_01\Ngay3_quanlysinhvien\obj\Debug\net8.0\quanlysinhvien.genruntimeconfig.cache
+C:\CSharplearning\Week_01\Ngay3_quanlysinhvien\obj\Debug\net8.0\ref\quanlysinhvien.dll
