@@ -1,0 +1,7 @@
+# Ignore .NET build folders
+**/bin/
+**/obj/
+
+# Ignore Visual Studio files
+.vs/
+**/.vs/
