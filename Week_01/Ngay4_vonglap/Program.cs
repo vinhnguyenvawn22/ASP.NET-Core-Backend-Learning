@@ -1,7 +1,4 @@
-﻿using System.Diagnostics;
-using System.Diagnostics.Tracing;
-using System.Reflection.Metadata.Ecma335;
-
+﻿
 List<Student> students = new List<Student> { };
 
 Student student1 = new Student();
