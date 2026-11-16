@@ -1,3 +1,8 @@
+<img width="1535" height="717" alt="image" src="https://github.com/user-attachments/assets/131e6a84-71b0-4e19-bdc1-eb20bc6ccb05" />
+<img width="1530" height="727" alt="image" src="https://github.com/user-attachments/assets/c6bfbe28-b34b-4c4d-b6b1-e5a91a985b55" />
+
+
+
 # Student Management API
 
 RESTful Web API quản lý sinh viên được xây dựng bằng **ASP.NET Core Web API (.NET 8)**. Đây là project thực hành backend, tập trung vào Controller, Routing, Model Binding, DTO, HTTP Status Code, LINQ, tìm kiếm, phân trang và cấu trúc response thống nhất.
