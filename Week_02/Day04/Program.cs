@@ -134,6 +134,10 @@ while (isrunning)
                     Console.WriteLine($"Name: {studentt.Name}");
                     Console.WriteLine($"Age: {studentt.Age}");
                 }
+                else
+                {
+                    Console.WriteLine("sinh vien khong ton tai");
+                }
                 break;
             case "4":
                 Console.Write("Nhap ID update: ");
