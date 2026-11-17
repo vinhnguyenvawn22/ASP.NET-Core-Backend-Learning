@@ -4,7 +4,7 @@ namespace StudentManagement.Api.Models;
 
 using StudentManagement.Api.Dtos;
 using StudentManagement.Api.Responses;
-
+using StudentManagement.Api.Validators;
 [ApiController]
 [Route("api/students")]
 public class StudentsController : ControllerBase
@@ -95,6 +95,17 @@ public class StudentsController : ControllerBase
     [HttpPost]
     public IActionResult CreateStudent([FromBody] CreateStudentDto dto)
     {
+        var validator = new CreateStudentDtoValidator();
+        var result = validator.Validate(dto);
+        if (!result.IsValid)
+        {
+            var errors = result.Errors.Select(e => new
+            {
+                e.PropertyName,
+                e.ErrorMessage
+            }).ToList();
+            return BadRequest(errors);
+        }
         int newID = _students.Count == 0 ? 1 : _students.Max(s => s.Id) + 1;
         var student = new Student
         {
@@ -115,6 +126,17 @@ public class StudentsController : ControllerBase
     [HttpPut("{id}")]
     public IActionResult UpdateStudent(int id, [FromBody] UpdateStudentDto dto)
     {
+        var validator = new UpdateStudentDtoValidator();
+        var result = validator.Validate(dto);
+        if (!result.IsValid)
+        {
+            var errors = result.Errors.Select(e => new
+            {
+                e.PropertyName,
+                e.ErrorMessage
+            }).ToList();
+            return BadRequest(errors);
+        }
         var existingStudent = _students.FirstOrDefault(s => s.Id == id);
         if (existingStudent is null)
         {
